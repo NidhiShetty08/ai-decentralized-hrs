@@ -1,0 +1,58 @@
+# Environment Variables (CONTAINS YOUR PRIVATE KEY - NEVER UPLOAD!)
+.env
+.env.local
+.env.*.local
+
+# Dependencies
+node_modules/
+package-lock.json
+
+# Hardhat files
+cache/
+artifacts/
+typechain/
+typechain-types/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Operating System files
+Thumbs.db
+.DS_Store
+Desktop.ini
+
+# Testing and Coverage
+coverage/
+coverage.json
+.coverage_artifacts/
+.coverage_cache/
+.coverage_contracts/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+.tmp/
+temp/
+
+# Build files
+dist/
+build/
+out/
+
+# Sensitive data
+secrets.json
+secrets.js
